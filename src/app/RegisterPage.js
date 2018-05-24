@@ -11,7 +11,7 @@ export class RegisterPage extends React.Component{
   constructor(props){
     super(props);
     this.state ={
-      isRegister:true,
+      isRegister:false,
       isLogin:false
     }
   }
@@ -58,11 +58,20 @@ export class RegisterPage extends React.Component{
   </div>
   </span>
       <span class={styles.premium}>PREMIUM PLANS</span>
+      {this.state.isLogin || this.state.isRegister ? '':
       <span class={styles.headerright}>
-      <span onClick={this.handleLogin.bind(this)} class={styles.login}>LOG IN</span>
-      <span class={styles.hrshort}></span>
-      <span onClick={this.handleRegister.bind(this)} class={styles.register}>REGISTER</span>
+      <span onClick={this.handleLogin.bind(this)} class={styles.login}>
+
+     LOG IN
       </span>
+      <span class={styles.hrshort}></span>
+      <span onClick={this.handleRegister.bind(this)} class={styles.register}>
+    REGISTER
+
+      </span>
+      </span>
+    }
+
       </div>
       {this.state.isRegister?  <Register/> : '' }
       {this.state.isLogin? <Login/> : ''}
