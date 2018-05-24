@@ -9,7 +9,7 @@ export class RegisterPage extends React.Component{
   constructor(props){
     super(props);
     this.state ={
-      isRegister:false,
+      isRegister:true,
       isLogin:false
     }
   }
@@ -32,8 +32,6 @@ export class RegisterPage extends React.Component{
       <p class={styles.header}>
       <span class={styles.logo}>Windeed</span>
       <span class={styles.divider}></span>
-
-
       <span class={styles.premium}>PREMIUM PLANS</span>
       <span class={styles.headerright}>
       <span onClick={this.handleLogin.bind(this)} class={styles.login}>LOG IN</span>

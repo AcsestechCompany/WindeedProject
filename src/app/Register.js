@@ -32,9 +32,20 @@ handleEmployer(){
 
       <Form className={formstyle}>
       <p class={styles.formheading}>
-<span class={styles.jobseeker} onClick={this.handleJobseeker.bind(this)}>Job Seeker</span>
+<span class={styles.jobseeker} onClick={this.handleJobseeker.bind(this)}>
+{this.state.isJobseeker ?
+  <span class={styles.isActive}>JobSeeker</span> :
+  <span>JobSeeker</span>
+}
+</span>
 <span class={styles.hrlong}></span>
-<span class={styles.employer} onClick={this.handleEmployer.bind(this)}>Employer</span>
+<span class={styles.employer} onClick={this.handleEmployer.bind(this)}>
+{this.state.isEmployer ?
+<span class={styles.isActive}>Employer</span> :
+<span >Employer</span>
+}
+
+</span>
       </p>
       {this.state.isJobseeker?   <RegisterJobseeker/>: '' }
       {this.state.isEmployer?   <RegisterEmployer/> : '' }
