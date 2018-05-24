@@ -6,6 +6,40 @@ bottom:0;
 left:0;
 right:0;
 }
+.lastline{
+
+  font-size:0.9vw;
+  position:relative;
+  top:1vw;
+  left:5vw;
+
+}
+.lastliner{
+    color:#A9EEEC ;
+      font-size:0.9vw;
+      position:relative;
+      top:1vw;
+      left:10vw;
+}
+.logging{
+
+  color:White;
+  cursor:pointer;
+
+}
+
+.createaccount{
+  color:#A9EEEC ;
+  position:relative;
+  left:10vw;
+  cursor:pointer;
+
+}
+.forgottxt{
+color:#A9EEEC ;
+text-decoration: red !important;
+
+}
 #dropdown{
   background-color:inherit;
   border:none;

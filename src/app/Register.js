@@ -4,13 +4,15 @@ import styles from "./Layout.css";
 import {RegisterEmployer} from "./RegisterEmployer";
 import {RegisterJobseeker} from "./RegisterJobseeker";
 import { Form, FormGroup, Input, Row} from 'reactstrap';
+import {Login} from "./Login";
 
 export class Register extends React.Component{
   constructor(props){
     super(props);
     this.state = {
       isJobseeker:true,
-      isEmployer:false
+      isEmployer:false,
+      Register:true
     }
   }
 handleJobseeker(){
@@ -25,10 +27,17 @@ handleEmployer(){
     isJobseeker:false
   })
 }
+handleLogin(){
+  this.setState({
+    Register:false,
+    Login:true
+  })
+}
   render() {
 
     return(
       <div>
+      {this.state.Register ?
 
       <Form className={formstyle}>
       <p class={styles.formheading}>
@@ -42,16 +51,25 @@ handleEmployer(){
 <span class={styles.employer} onClick={this.handleEmployer.bind(this)}>
 {this.state.isEmployer ?
 <span class={styles.isActive}>Employer</span> :
-<span >Employer</span>
+<span>Employer</span>
 }
 
 </span>
       </p>
       {this.state.isJobseeker?   <RegisterJobseeker/>: '' }
       {this.state.isEmployer?   <RegisterEmployer/> : '' }
-
+<p className={styles.lastliner}>Already Registered ?
+<span onClick={this.handleLogin.bind(this)} className={styles.logging}> Log In here</span>
+</p>
 
       </Form>
+      :
+      ''
+    }
+    {this.state.Login ?
+   <Login/> :
+   ''
+    }
       </div>
     );
   }
