@@ -31,7 +31,7 @@ export class RegisterPage extends React.Component{
   render(){
     return(
       <div class={styles.background}>
-      <p class={styles.header}>
+      <div class={styles.header}>
       <span class={styles.logo}>Windeed</span>
       <p id={styles.divider}></p>
 
@@ -63,7 +63,7 @@ export class RegisterPage extends React.Component{
       <span class={styles.hrshort}></span>
       <span onClick={this.handleRegister.bind(this)} class={styles.register}>REGISTER</span>
       </span>
-      </p>
+      </div>
       {this.state.isRegister?  <Register/> : '' }
       {this.state.isLogin? <Login/> : ''}
       </div>
