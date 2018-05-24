@@ -6,6 +6,36 @@ bottom:0;
 left:0;
 right:0;
 }
+#dropdown{
+  background-color:inherit;
+  border:none;
+  color:#A9EEEC !important;
+  width:12vw;
+  cursor:pointer;
+  font-size:1vw;
+  position:relative;
+  left:20vw;
+  bottom:6vw;
+}
+#dropdownmenu{
+  background-color:#C5E9F1 !important;
+
+}
+.arrowdown{
+  position:relative;
+  top:0.2vw;
+  cursor:pointer;
+}
+#jobseekerdropdown{
+position:relative;
+left:5vw;
+
+}
+#employerdropdown{
+position:relative;
+right:7.5vw;
+
+}
 .isActive{
 font-size:1.6vw;
   text-decoration: underline solid red;
@@ -17,20 +47,31 @@ font-size:1.6vw;
 .headerright{
   float:right;
   position:relative;
-  top:0.6vw;
-  font-size: 0.9vw;
+bottom:5vw;
+  font-size: 0.85vw;
   color:#FFFFEC;
+}
+.premium{
+
+  position:relative;
+bottom:6vw;
+  left:15vw;
+  font-size:1vw;
+  color:#A9EEEC;
 }
 .login{
 margin-right:2vw;
 cursor:pointer;
+color:#A9EEEC;
 }
 .register{
 margin-right:3vw;
 cursor:pointer;
+color:#A9EEEC;
 }
+
 .logo{
-  color:white;
+  color:#A9EEEC;
   font-size:1.5vw;
   margin:0vw 0vw 0vw 3vw;
 }
@@ -45,7 +86,7 @@ color:white;
 margin:0vw 0vw 2vw 6vw;
 }
 .formstyle{
-  margin:14vw 35vw 2vw 33vw;
+  margin:10vw 35vw 2vw 33vw;
 }
 .jobseeker{
 cursor:pointer;
@@ -54,29 +95,26 @@ cursor:pointer;
   cursor:pointer;
 margin:0vw 0vw 0vw 4vw;
 }
-.divider{
-  border-left:1.5px solid #FFFFEC;
+#divider{
+  border-left:1px solid #A9EEEC;
   width:0px;
-  height:36px;
-margin-left:3vw;
+height:30px;
+margin-left:12vw;
+position:relative;
+bottom:2vw;
 }
-.premium{
-  margin-left:60vw;
-  font-size:1vw;
-}
+
 .hrshort{
-  border-left:1.2px solid #FFFFEC;
-  width:0px;
-  height:36px;
+  border-left:1.2px solid #A9EEEC;
+
 margin-right:2vw;
 }
 .hrlong{
-  border-left:1.5px solid #FFFFEC;
+  border-left:1.5px solid #A9EEEC;
   width:0px;
   height:36px;
 margin-left:4.5vw;
 }
-
 ::placeholder{
   color:#99D9DF !important;
 }
