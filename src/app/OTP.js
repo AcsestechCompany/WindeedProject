@@ -4,6 +4,7 @@ import { Form, FormGroup, Input, Row} from 'reactstrap';
 import styles from "./Layout.css";
 import {Register} from "./Register";
 import {Password} from "./Password";
+import {Header} from "./Header";
 
 export class OTP extends React.Component{
   constructor(props){
@@ -30,7 +31,8 @@ export class OTP extends React.Component{
   }
   render(){
     return(
-      <div>
+      <div className={styles.background}>
+      <Header/>
       {this.state.inOtp ?
       <div>
       <p className={styles.otptxt}>OTP has been sent to you on your phone number 9989987678 please enter it below</p>

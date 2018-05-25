@@ -1,5 +1,6 @@
 import React from "react";
 import {forminput,formstyle} from  "./Layout.css";
+import {Link} from "react-router-dom";
 import styles from "./Layout.css";
 import {RegisterEmployer} from "./RegisterEmployer";
 import {RegisterJobseeker} from "./RegisterJobseeker";
@@ -17,7 +18,6 @@ export class Register extends React.Component{
       inOTP:false
     }
   }
-
   handleOTP(){
     this.setState({
       inOTP:true,
@@ -69,9 +69,9 @@ handleLogin(){
       </p>
       {this.state.isJobseeker?   <RegisterJobseeker/>: '' }
       {this.state.isEmployer?   <RegisterEmployer/> : '' }
-        <button type="submit" class="btn btn-outline-default" onClick={this.handleOTP.bind(this)}>Submit</button>
+        <Link to="/OTP"><button type="submit" class="btn btn-outline-default" >Submit</button></Link>
 <p className={styles.lastliner}>Already Registered ?
-<span onClick={this.handleLogin.bind(this)} className={styles.logging}> Log In here</span>
+<Link to="/Login" className={styles.hyperlink}><span  className={styles.logging}> Log In here</span></Link>
 </p>
 
       </Form>

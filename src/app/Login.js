@@ -71,7 +71,7 @@ handleForgot(){
 
   <p className={styles.lastline}>
  <span className={styles.forgottxt} onClick={this.handleForgot.bind(this)}>Forgot Password</span>
-  <span className={styles.createaccount} onClick={this.handleRegister.bind(this)}>Create an Account</span>
+  <Link to="/Register" className={styles.hyperlink}><span className={styles.createaccount}>Create an Account</span></Link>
   </p>
   </Form>
    : ''}

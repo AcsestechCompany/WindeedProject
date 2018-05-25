@@ -1,35 +1,37 @@
-import  React from "react";
+import React from "react";
+import {container} from "bootstrap";
 import styles from "./Layout.css";
-import {Icon} from "react-icons-kit";
+import {Register} from "./Register";
+import {Login} from "./Login";
 import {thinDown} from 'react-icons-kit/entypo/thinDown';
+import {Icon} from "react-icons-kit";
 import {Link} from "react-router-dom";
 
 
-
-
-export class Header extends React.Component{
+export class RegisterPage extends React.Component{
   constructor(props){
     super(props);
-    this.state = {
-      Login:false,
-      Register:false
+    this.state ={
+      isRegister:false,
+      isLogin:false
     }
-  }
-  handleLogin(){
-    this.setState({
-      Login:true,
-      Register:false
-    })
   }
   handleRegister(){
     this.setState({
-      Login:false,
-      Register:true
+      isRegister:true,
+      isLogin:false
     })
   }
+  handleLogin(){
+    this.setState({
+      isLogin:true,
+      isRegister:false
+    })
+  }
+
   render(){
     return(
-      <div>
+      <div >
       <div class={styles.header}>
       <span class={styles.logo}>Windeed</span>
       <p id={styles.divider}></p>
@@ -59,24 +61,17 @@ export class Header extends React.Component{
       <span class={styles.premium}>PREMIUM PLANS</span>
 
       <span class={styles.headerright}>
-      <Link to="/Login" id={styles.hyperlink}><span  class={styles.login} >
-
+      <Link to="/Login"><span  class={styles.login}>
      LOG IN
-      </span>
-      </Link>
-      <span class={styles.hrshort} ></span>
-      <Link to="/Register" id={styles.hyperlink}>
-      <span class={styles.register} >
+      </span></Link>
+      <span class={styles.hrshort}></span>
+    <Link to="/Register">  <span class={styles.register}>
     REGISTER
-
+      </span></Link>
       </span>
-      </Link>
-      </span>
-
 
       </div>
-      {this.state.Login ? <Login/> :''}
-      {this.state.Register ? <Register/> :''}
+
       </div>
     );
   }

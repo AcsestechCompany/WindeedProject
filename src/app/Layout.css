@@ -166,10 +166,13 @@ color:white;
 margin:0vw 0vw 2vw 6vw;
 }
 .formstyle{
-padding:10vw 35vw 2vw 33vw;
+padding:8vw 35vw 2vw 33vw;
 }
 .jobseeker{
 cursor:pointer;
+}
+.hyperlink{
+  text-decoration:none !important;
 }
 .employer{
   cursor:pointer;
