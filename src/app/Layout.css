@@ -25,7 +25,6 @@ right:0;
 
   color:White;
   cursor:pointer;
-
 }
 
 .createaccount{
@@ -33,12 +32,56 @@ right:0;
   position:relative;
   left:10vw;
   cursor:pointer;
+}
+#otpsubmit{
+  margin:3vw 0vw 0vw 11vw;
+}
+.otptxt{
+  color:white;
+  font-size:1vw;
+  margin:10vw 0vw -7vw 30vw;
+}
+.pwdtxt{
+   color:white;
+  font-size:1.3vw;
+  margin:10vw 0vw -7vw 31vw;
+}
+.pass{
+text-align: center;
+color: white;
+background-color:inherit;
+border:none;
+border-bottom: 1px solid #99D9EA ;
+width:40px;
+position:relative;
+top: 0.8vw;
+margin-right: 1vw;
+height: 20px;
+}
+.otp{
+margin:0vw 0vw 0vw 9vw;
 
+}
+.resendotp{
+  margin:0vw 10vw 0vw -4vw;
+}
+.changeno{
+margin:0vw 0vw 0vw 0vw;
+cursor:pointer;
 }
 .forgottxt{
 color:#A9EEEC ;
-text-decoration: red !important;
-
+cursor:pointer;
+}
+.forgotcontent{
+  color:white;
+  margin:0vw 0vw 3.5vw 2.5vw;
+  font-size:1.3vw;
+}
+.back{
+  color:#A9EEEC;
+margin:2vw 0vw 0vw 45vw;
+cursor:pointer;
 }
 #dropdown{
   background-color:inherit;
@@ -60,10 +103,15 @@ text-decoration: red !important;
   top:0.2vw;
   cursor:pointer;
 }
+.arrowleft{
+  position:relative;
+  top:3vw;
+  right:3vw;
+  cursor:pointer;
+}
 #jobseekerdropdown{
 position:relative;
 left:5vw;
-
 }
 #employerdropdown{
 position:relative;
@@ -86,7 +134,6 @@ bottom:5vw;
   color:#FFFFEC;
 }
 .premium{
-
   position:relative;
 bottom:6vw;
   left:15vw;
@@ -103,7 +150,6 @@ margin-right:3vw;
 cursor:pointer;
 color:#A9EEEC;
 }
-
 .logo{
   color:#A9EEEC;
   font-size:1.5vw;
@@ -120,7 +166,7 @@ color:white;
 margin:0vw 0vw 2vw 6vw;
 }
 .formstyle{
-  margin:10vw 35vw 2vw 33vw;
+padding:10vw 35vw 2vw 33vw;
 }
 .jobseeker{
 cursor:pointer;

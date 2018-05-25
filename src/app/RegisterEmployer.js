@@ -2,10 +2,15 @@ import React from "react";
 import {forminput} from "./Layout.css";
 import { Form, FormGroup, Input, Row} from 'reactstrap';
 
+
+
 export class RegisterEmployer extends React.Component{
+
   render(){
     return(
-      <div>
+
+<div>
+
       <FormGroup>
         <Input type="text" className={forminput} name="email" id="exampleName" placeholder="Name Employer" />
       </FormGroup>
@@ -16,8 +21,11 @@ export class RegisterEmployer extends React.Component{
 
            <Input type="password" className={forminput} name="password" id="examplePassword" placeholder="Password" />
          </FormGroup>
-        <button type="submit" class="btn btn-outline-default">Submit</button>
-        </div>
+
+</div>
+
+
+
     );
   }
 }

@@ -17,7 +17,7 @@ export class RegisterJobseeker extends React.Component{
 
            <Input type="password" className={forminput} name="password" id="examplePassword" placeholder="Password" />
          </FormGroup>
-        <button type="submit" class="btn btn-outline-default">Submit</button>
+      
 
         </div>
     );

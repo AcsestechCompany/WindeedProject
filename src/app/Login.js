@@ -4,6 +4,7 @@ import styles from "./Layout.css";
 import {LoginEmployer} from "./LoginEmployer";
 import {LoginJobseeker} from "./LoginJobseeker";
 import {Register} from "./Register";
+import {Forgot} from "./Forgot";
 import { Form, FormGroup, Input, } from 'reactstrap';
 import {Link} from "react-router-dom";
 
@@ -15,7 +16,8 @@ export class Login extends React.Component{
       isJobseeker:true,
       isEmployer:false,
       isRegister:false,
-    Login:true
+    Login:true,
+    isForgot:false
     }
   }
 handleJobseeker(){
@@ -36,6 +38,13 @@ handleRegister(){
   Login:false
   })
 }
+handleForgot(){
+  this.setState({
+    isForgot:true,
+    isRegister:false,
+    Login:false
+  })
+}
   render(){
     return(
       <div>
@@ -53,7 +62,6 @@ handleRegister(){
 <span class={styles.isActive}>Employer</span> :
 <span>Employer</span>
 }
-
 </span>
   </p>
 
@@ -61,12 +69,13 @@ handleRegister(){
   {this.state.isEmployer?   <LoginEmployer/> : '' }
 
   <p className={styles.lastline}>
-  <Link to="/Forgot">   <span className={styles.forgottxt}>Forgot Password</span></Link>
+ <span className={styles.forgottxt} onClick={this.handleForgot.bind(this)}>Forgot Password</span>
   <span className={styles.createaccount} onClick={this.handleRegister.bind(this)}>Create an Account</span>
   </p>
   </Form>
    : ''}
 {this.state.isRegister ? <Register/> : ''}
+{this.state.isForgot ? <Forgot/> : ''}
 
 
              </div>

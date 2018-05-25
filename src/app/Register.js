@@ -5,6 +5,7 @@ import {RegisterEmployer} from "./RegisterEmployer";
 import {RegisterJobseeker} from "./RegisterJobseeker";
 import { Form, FormGroup, Input, Row} from 'reactstrap';
 import {Login} from "./Login";
+import {OTP} from "./OTP";
 
 export class Register extends React.Component{
   constructor(props){
@@ -12,8 +13,17 @@ export class Register extends React.Component{
     this.state = {
       isJobseeker:true,
       isEmployer:false,
-      Register:true
+      Register:true,
+      inOTP:false
     }
+  }
+
+  handleOTP(){
+    this.setState({
+      inOTP:true,
+      Register:false
+
+    })
   }
 handleJobseeker(){
   this.setState({
@@ -58,6 +68,7 @@ handleLogin(){
       </p>
       {this.state.isJobseeker?   <RegisterJobseeker/>: '' }
       {this.state.isEmployer?   <RegisterEmployer/> : '' }
+        <button type="submit" class="btn btn-outline-default" onClick={this.handleOTP.bind(this)}>Submit</button>
 <p className={styles.lastliner}>Already Registered ?
 <span onClick={this.handleLogin.bind(this)} className={styles.logging}> Log In here</span>
 </p>
@@ -70,6 +81,7 @@ handleLogin(){
    <Login/> :
    ''
     }
+    {this.state.inOTP ? <OTP/>:''}
       </div>
     );
   }
