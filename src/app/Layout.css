@@ -6,6 +6,60 @@ bottom:0;
 left:0;
 right:0;
 }
+.status{
+position:relative;
+bottom:0.7vw;
+}
+
+.active{
+color:green;
+}
+.inactive{
+color:red;
+}
+.profileupdate{
+  height:15vw;
+  background-color:white;
+  border:none;
+ box-shadow:-0.01px 3px 1px 0.1px lightgray;
+}
+.about{
+  background-color:white;
+  height:52vw;
+  border:none;
+ box-shadow:-0.01px 3px 1px 0.1px lightgray;
+}
+.windeedcarousel{
+
+  background-color:white;
+  border:none;
+min-height:15vw;
+overflow:auto;
+  box-shadow:-0.01px 3px 1px 0.1px lightgray;
+}
+.windeedjobs{
+    margin-top:3vw;
+    padding-top:2vw;
+  background-color:white;
+  height:50vw;
+
+}
+.windeedJob{
+  height:20vw;
+  background-color:#F7F9FC;
+  margin-bottom:3vw;
+margin:2vw 2vw 2vw 2vw;
+}
+.container{
+  background-color:#F7F9FC;
+padding :3vw 5vw 3vw 5vw;
+min-height:600px;
+overflow:auto;
+}
+.homesecond{
+  margin-top:3vw;
+}
+
 .lastline{
 
   font-size:0.9vw;
@@ -95,10 +149,16 @@ cursor:pointer;
   position:relative;
   left:20vw;
   bottom:6vw;
+  outline:inherit;
 }
 #dropdownmenu{
   background-color:#C5E9F1 !important;
-
+}
+.arrowdown1{
+  position:relative;
+  top:0.3vw;
+  right:0.3vw;
+  cursor:pointer;
 }
 .arrowdown{
   position:relative;
