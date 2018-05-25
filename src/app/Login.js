@@ -7,7 +7,7 @@ import {Register} from "./Register";
 import {Forgot} from "./Forgot";
 import { Form, FormGroup, Input, } from 'reactstrap';
 import {Link} from "react-router-dom";
-import {Header} from "./Header";
+import {Header1} from "./Header1";
 
 export class Login extends React.Component{
   constructor(props){
@@ -48,7 +48,7 @@ handleForgot(){
   render(){
     return(
       <div className={styles.background}>
-      <Header/>
+      <Header1/>
 {this.state.Login ?
   <Form className={formstyle}>
   <p class={styles.formheading}>

@@ -8,7 +8,7 @@ import {Icon} from "react-icons-kit";
 import {Link} from "react-router-dom";
 
 
-export class RegisterPage extends React.Component{
+export class Header1 extends React.Component{
   constructor(props){
     super(props);
     this.state ={
@@ -61,13 +61,16 @@ export class RegisterPage extends React.Component{
       <span class={styles.premium}>PREMIUM PLANS</span>
 
       <span class={styles.headerright}>
-      <Link to="/Login"><span  class={styles.login}>
+    <Link to="/Login" className={styles.hyperlink}>  <span class={styles.login}>
      LOG IN
-      </span></Link>
+      </span>
+      </Link>
       <span class={styles.hrshort}></span>
-    <Link to="/Register">  <span class={styles.register}>
+      <Link to="/Register" className={styles.hyperlink}>
+      <span  class={styles.register}>
     REGISTER
-      </span></Link>
+      </span>
+      </Link>
       </span>
 
       </div>

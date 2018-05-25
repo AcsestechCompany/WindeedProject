@@ -4,7 +4,8 @@ import { Form, FormGroup, Input, Row} from 'reactstrap';
 import styles from "./Layout.css";
 import {Register} from "./Register";
 import {Password} from "./Password";
-import {Header} from "./Header";
+import {Header1} from "./Header1";
+import {Link} from "react-router-dom";
 
 export class OTP extends React.Component{
   constructor(props){
@@ -32,7 +33,7 @@ export class OTP extends React.Component{
   render(){
     return(
       <div className={styles.background}>
-      <Header/>
+      <Header1/>
       {this.state.inOtp ?
       <div>
       <p className={styles.otptxt}>OTP has been sent to you on your phone number 9989987678 please enter it below</p>
@@ -47,7 +48,7 @@ export class OTP extends React.Component{
 <button type="submit" class="btn btn-default" id={styles.otpsubmit} onClick={this.handleGoToPassword.bind(this)}>Submit</button>
 <p className={styles.lastliner}>
 <span className={styles.resendotp}>Resend OTP</span>
-<span className={styles.changeno} onClick={this.handleGoToRegister.bind(this)}>Change number</span>
+<Link to="/Register" className={styles.hyperlink}><span className={styles.changeno} >Change number</span></Link>
 </p>
        </Form>
        </div> :

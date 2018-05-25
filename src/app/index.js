@@ -5,7 +5,8 @@ import {Login} from "./Login";
 import {Register} from "./Register";
 import {OTP} from "./OTP";
 import {Test} from "./Test";
-import {RegisterPage} from "./RegisterPage";
+
+
 
 export class App extends React.Component{
   render() {
@@ -16,7 +17,8 @@ export class App extends React.Component{
           <Route path="/Register" component={Register}/>
           <Route path="/OTP" component={OTP}/>
           <Route path="/Test" component={Test}/>
-          <Route path="/RegisterPage" component={RegisterPage}/>
+        
+
         </div>
         </Router>
     );

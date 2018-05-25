@@ -7,7 +7,7 @@ import {RegisterJobseeker} from "./RegisterJobseeker";
 import { Form, FormGroup, Input, Row} from 'reactstrap';
 import {Login} from "./Login";
 import {OTP} from "./OTP";
-import {Header} from "./Header";
+import {Header1} from "./Header1";
 export class Register extends React.Component{
   constructor(props){
     super(props);
@@ -47,7 +47,7 @@ handleLogin(){
 
     return(
       <div className={styles.background}>
-      <Header/>
+      <Header1/>
       {this.state.Register ?
 
       <Form className={formstyle}>
