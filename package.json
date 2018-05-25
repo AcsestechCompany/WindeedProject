@@ -33,5 +33,13 @@
     "react-router-dom": "^4.2.2",
     "reactstrap": "^6.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AcsestechCompany/WindeedProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AcsestechCompany/WindeedProject/issues"
+  },
+  "homepage": "https://github.com/AcsestechCompany/WindeedProject#readme",
   "description": ""
 }

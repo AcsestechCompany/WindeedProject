@@ -1,7 +1,8 @@
 import React from "react";
 import {render} from "react-dom";
 import {HashRouter as Router,Route,Link} from "react-router-dom";
-import {RegisterPage} from "./RegisterPage";
+import {Login} from "./Login";
+import {Register} from "./Register";
 import {Test} from "./Test";
 
 export class App extends React.Component{
@@ -9,7 +10,8 @@ export class App extends React.Component{
     return(
       <Router>
         <div>
-          <Route path="/RegisterPage" component={RegisterPage}/>
+          <Route path="/Login" component={Login}/>
+          <Route path="/Register" component={Register}/>
           <Route path="/Test" component={Test}/>
         </div>
         </Router>
