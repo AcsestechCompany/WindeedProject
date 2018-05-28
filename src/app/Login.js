@@ -16,8 +16,8 @@ export class Login extends React.Component{
       isJobseeker:true,
       isEmployer:false,
       isRegister:false,
-    Login:true,
-    isForgot:false
+      Login:true,
+      isForgot:false
     }
   }
 handleJobseeker(){

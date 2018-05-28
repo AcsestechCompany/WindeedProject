@@ -47,13 +47,12 @@ export class Header extends React.Component{
     </span>
 
   <span class="dropdown" id={styles.employerdropdown}>
-  <button id={styles.dropdown} type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button id={styles.dropdownJ} type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   EMPLOYER <Icon icon={thinDown} class={styles.arrowdown}/>
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id={styles.dropdownmenu}>
   <a class="dropdown-item" href="#">Search Talent</a>
   <a class="dropdown-item" href="#">Post Jobs</a>
-
   </div>
   </span>
       <span class={styles.premium}>PREMIUM PLANS</span>

@@ -1,3 +1,21 @@
+ .hide input[type=file] {
+display:none;
+margin:10px;
+}
+.hide input[type=file] + label {
+display:inline-block;
+margin:20px;
+padding: 4px 32px;
+background-color: #FFFFFF;
+border:solid 1px #666F77;
+border-radius: 6px;
+color:#666F77;
+}
+.hide input[type=file]:active + label {
+background-image: none;
+background-color:#2D6C7A;
+color:#FFFFFF;
+}
 .background{
   background-image:url('./background.jpg');
 position:fixed;
@@ -6,19 +24,20 @@ bottom:0;
 left:0;
 right:0;
 }
-.status{
-position:relative;
-bottom:0.7vw;
+.headerJ{
+  height:9vw;
+  background-color:#5887BE;
+  padding:2.5vw 2vw 0vw 2vw;
+}
+.headerJtxt{
+  color:#98E4F0;
+}
+.floatRight{
+  float:right;
 }
 
-.active{
-color:green;
-}
-.inactive{
-color:red;
-}
 .profileupdate{
-  height:15vw;
+  height:16vw;
   background-color:white;
   border:none;
  box-shadow:-0.01px 3px 1px 0.1px lightgray;
@@ -28,6 +47,103 @@ color:red;
   height:52vw;
   border:none;
  box-shadow:-0.01px 3px 1px 0.1px lightgray;
+}
+.profilepic{
+  width:10vw;
+  height:10vw;
+  margin-left:2vw;
+  margin-top:2vw;
+}
+.status{
+position:relative;
+top:7.5vw;
+right:9.5vw;
+font-size:0.95vw;
+}
+.active{
+color:green;
+}
+.inactive{
+color:red;
+}
+.toggle{
+  margin-left:1vw;
+color:red;
+position:relative;
+top:8vw;
+right:10vw;
+
+}
+.details{
+position:relative;
+top:3.5vw;
+left:-17vw;
+}
+.name{
+  font-weight:bold;
+  font-size:1vw;
+
+}
+.chipsdisplay{
+border:none !important;
+background-color:red !important;
+border-color:inherit !important;
+}
+.progress{
+  position:relative;
+  top:3vw;
+  left:-25vw;
+}
+.updateprofile{
+  position:relative;
+  bottom:2vw;
+  left:1vw;
+  font-weight:450;
+}
+.mobile{
+position:relative;
+top:3vw;
+font-size:1vw;
+font-weight:440;
+}
+.email{
+position:relative;
+top:1.7vw;
+font-size:1vw;
+font-weight:440;
+}
+.no{
+color:grey;
+font-size:0.93vw;
+}
+.id{
+color:grey;
+font-size:0.93vw;
+}
+.hrdivider{
+  width:0.1%;
+  height:14vw;
+
+  background-color:#E5ECF2;
+  position:relative;
+  left:-32vw;
+  top:1vw;
+  bottom:1vw;
+
+}
+.imagepreview{
+  width:500px;
+  height:500px;
+}
+.design{
+color:orange;
+position:relative;
+bottom:1.2vw;
+font-size:0.97vw;
+}
+.location{
+color:grey;
+font-size:0.9vw;
 }
 .windeedcarousel{
 
@@ -42,7 +158,6 @@ overflow:auto;
     padding-top:2vw;
   background-color:white;
   height:50vw;
-
 }
 .windeedJob{
   height:20vw;
@@ -151,8 +266,58 @@ cursor:pointer;
   bottom:6vw;
   outline:inherit;
 }
+#dropdownJ{
+
+  border:none;
+  color:#A9EEEC !important;
+  width:12vw;
+  cursor:pointer;
+  font-size:1vw;
+  position:relative;
+  bottom:1vw;
+  outline:inherit;
+}
 #dropdownmenu{
   background-color:#C5E9F1 !important;
+  outline:inherit;
+}
+.paraheadings{
+  color:#737A85;
+  font-size:1.2vw;
+  font-weight:500;
+  position:relative;
+  top:2vw;
+  left:2vw;
+}
+.paracontent{
+  font-size:1vw;
+  position:relative;
+  top:1vw;
+  left:2vw;
+  right:1vw;
+  color:grey;
+  margin-right:3vw;
+}
+.breakline{
+  margin-top:5vw;
+}
+
+.jobs{
+  margin-left:2vw;
+  font-size:0.95vw;
+  font-weight:bold;
+}
+.viewMore{
+  font-size:0.85vw;
+  color:red;
+  float:right;
+  margin-right:2vw;
+}
+.arrowdown2{
+  position:relative;
+  top:0.5vw;
+  right:0.3vw;
+  cursor:pointer;
 }
 .arrowdown1{
   position:relative;

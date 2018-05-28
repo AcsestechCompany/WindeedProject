@@ -41,7 +41,27 @@ module.exports = {
  {
    test: /\.(png|jpg)$/,
     loader: 'url-loader?limit=8192'
-   }
+  },
+    { test: /\.svg$/,
+       loader: 'svg-loader?{png:{scale:2}}'
+     },
+     {
+  test: /\.svg$/,
+  use: [
+    "babel-loader",
+    {
+      loader: "react-svg-loader",
+      options: {
+        svgo: {
+          plugins: [
+            { removeTitle: false }
+          ],
+          floatPrecision: 2
+        }
+      }
+    }
+  ]
+}
     /*    {   test:/\.css$/,
            use: [
              {loader: "style-loader"},
