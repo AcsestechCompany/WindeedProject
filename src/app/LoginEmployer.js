@@ -1,6 +1,7 @@
 import React from "react";
 import {forminput} from "./Layout.css";
 import { Form, FormGroup, Input, } from 'reactstrap';
+import {Link} from "react-router-dom";
 
 export class LoginEmployer extends React.Component{
   render(){
@@ -13,7 +14,7 @@ export class LoginEmployer extends React.Component{
 
         <Input type="password" className={forminput} name="password" id="examplePassword" placeholder="Password" />
       </FormGroup>
-      <button type="submit" class="btn btn-outline-default">Submit</button>
+      <Link to="/EmployerHomepage"><button type="submit" class="btn btn-outline-default">Submit</button></Link>
      </div>
     );
   }

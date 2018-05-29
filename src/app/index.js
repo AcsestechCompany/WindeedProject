@@ -6,6 +6,7 @@ import {Register} from "./Register";
 import {OTP} from "./OTP";
 import {Test} from "./Test";
 import {JobseekerHomepage} from "./JobseekerHomepage";
+import {EmployerHomepage} from "./EmployerHomepage";
 
 
 
@@ -20,6 +21,8 @@ export class App extends React.Component{
           <Route path="/JobseekerHomepage"component={JobseekerHomepage}/>
           <Route path="/OTP" component={OTP}/>
           <Route path="/Test" component={Test}/>
+          <Route path="/EmployerHomepage" component={EmployerHomepage}/>
+
 
 
 
