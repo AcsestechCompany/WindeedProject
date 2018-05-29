@@ -2,9 +2,8 @@ import React from "react";
 import styles from "./Layout.css";
 import Icon from "react-icons-kit";
 import {smallDown,thinDown} from 'react-icons-kit/entypo';
-import {Link} from "react-router-dom";
 
-export class JobseekerHeader extends React.Component{
+export class EmployerHeader extends React.Component{
   render(){
     return(
       <div className={styles.headerJ}>
@@ -16,9 +15,9 @@ export class JobseekerHeader extends React.Component{
 Enosh <Icon icon={smallDown} size={25} class={styles.arrowdown2}/>
 </button>
 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id={styles.dropdownmenu}>
-<Link to="/MyJobs" className={styles.hyperlink}><p class="dropdown-item" href="#">My Jobs</p></Link>
-<Link to="" className={styles.hyperlink}><p class="dropdown-item" >My Profile</p></Link>
-<Link to="" className={styles.hyperlink}><a class="dropdown-item" href="#">Log out</a></Link>
+<a class="dropdown-item" href="#">My Posts</a>
+<a class="dropdown-item" href="#">My Profile</a>
+<a class="dropdown-item" href="#">Log out</a>
 </div>
 </span>
 
