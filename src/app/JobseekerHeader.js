@@ -9,7 +9,7 @@ export class JobseekerHeader extends React.Component{
       <div className={styles.headerJ}>
 
 <div className={styles.headerJtxt}>
-<span>Windeed</span>
+<span className={styles.windeedheader}>Windeed</span>
 <span class="dropdown" className={styles.floatRight}>
 <button id={styles.dropdownJ} type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 Enosh <Icon icon={smallDown} size={25} class={styles.arrowdown2}/>

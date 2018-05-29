@@ -5,6 +5,7 @@ import {JobseekerHeader} from "./JobseekerHeader";
 import Toggle from "react-toggle";
 import Chips, { Chip } from "react-chips";
 import CircularProgressbar from "react-circular-progressbar";
+import {WindeedCarousel} from "./WindeedCarousel";
 
 export class JobseekerHomepage extends React.Component{
   constructor(props) {
@@ -59,10 +60,32 @@ onChange = chips => {
          <Col className={styles.progress}>
          <CircularProgressbar percentage={60} />
          <span className={styles.updateprofile}>Update Profile</span>
-         <p className={styles.mobile}>Mobile no<span className={styles.no}>-7867987698</span></p>
-        <p className={styles.email}>Email ID<span className={styles.id}>-shaikfarhana@gmail.com</span></p>
+         <p className={styles.mobile}>Mobile - <span className={styles.no}>7867987698</span></p>
+        <p className={styles.email}>Email ID - <span className={styles.id}>farhana@gmail.com</span></p>
 
          </Col>
+         <Col className={styles.col3}>
+
+         <p >
+<span className={styles.headtxt}>Availability - </span>
+<span className={styles.txt}>Full Time (less than 15 days)</span>
+         </p>
+         <p className={styles.spacing2}>
+<span className={styles.headtxt}>Prefered Location - </span>
+<span className={styles.txt}>Hyderabad</span>
+         </p>
+         <p className={styles.spacing3}>
+<span className={styles.headtxt}>Experience - </span>
+<span className={styles.txt}>10 Years</span>
+         </p>
+         <p className={styles.file}>
+         <input type="file" className={styles.file} class="hidden"/>
+       </p>
+         </Col>
+         <Col className={styles.col4}>
+    <p className={styles.edit}>edit</p>
+         </Col>
+
          <p className={styles.hrdivider}></p>
 
          </Row>
@@ -81,13 +104,10 @@ A positive attitude and specific ideas about the contributions they want to make
 <hr className={styles.breakline}/>
 <p className={styles.paraheadings}>Skills</p>
 <p className={styles.paracontent}>
-<Chips
-
-  value={this.state.chips}
-  onChange={this.onChange}
-  suggestions={["Java", "Javascript", "html","css","reactjs"]}
-
-/></p>
+<span className={styles.skills}>UI</span>
+<span className={styles.skills}>HTML</span>
+<span className={styles.skills}>CSS</span>
+</p>
 <hr className={styles.breakline}/>
 <p className={styles.paraheadings}>Education</p>
 </CardText>
@@ -98,6 +118,9 @@ A positive attitude and specific ideas about the contributions they want to make
 
 <Col>
         <Card className={styles.windeedcarousel}>
+        <img src={require('./windeedlogo.png')} className={styles.windeedlogo}/>
+        <WindeedCarousel/>
+        <p className={styles.learnMore}>LEARN MORE</p>
         </Card>
 <div className={styles.windeedjobs}>
 <p>

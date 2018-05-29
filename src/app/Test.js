@@ -5,12 +5,9 @@ import styles from "./Layout.css";
 export class Test extends React.Component{
   render(){
     return(
+  <div>
+  </div>
 
-      <div> Test
-
-<input type="file"  className={styles.hide}/>
-
-      </div>
     );
   }
 }

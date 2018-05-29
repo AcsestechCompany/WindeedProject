@@ -1,21 +1,122 @@
- .hide input[type=file] {
-display:none;
-margin:10px;
+
+.file{
+position:relative;
+left:1vw;
+outline:none;
+
 }
-.hide input[type=file] + label {
-display:inline-block;
-margin:20px;
-padding: 4px 32px;
-background-color: #FFFFFF;
-border:solid 1px #666F77;
-border-radius: 6px;
-color:#666F77;
+.windeedheader{
+  font-size:1.5vw;
 }
-.hide input[type=file]:active + label {
-background-image: none;
-background-color:#2D6C7A;
-color:#FFFFFF;
+input[type="file"]::-webkit-file-upload-button{
+  background-color:white;
+border:none;
+  box-shadow:none;
+  color:blue;
+border:0.5px solid gray;
+visibility:hidden;
+border:1px solid red;
+
 }
+input[type="file"]::after{
+  visibility:'visible';
+  content:'Upload Resume';
+  border:1px solid blue;
+  border-radius:10%;
+  padding:0.4vw;
+  position:relative;
+  right:8vw;
+  color:blue;
+  margin-left:-1vw !important;
+}
+input[type="file"]{
+
+color:white;
+outline:none;
+
+}
+input[type="file"]:focus{
+
+  color:blue;
+}
+.col3{
+  position:relative;
+  left:2vw;
+  top:3.5vw;
+}
+.col4{
+position:relative;
+
+}
+.windeedlogo{
+  height:7vw;
+  width:20vw;
+  position: relative;
+bottom:1vw;
+  left:4.5vw;
+}
+.edit{
+border:1px solid blue;
+width:3.7vw;
+
+padding-left:0.6vw;
+position:relative;
+top:1vw;
+left:4vw;
+border-radius:7%;
+cursor:pointer;
+}
+.edit:hover{
+  background-color:blue;
+  color:white;
+}
+#transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid white;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+#transbox h5 {
+    margin: 5%;
+    color: #000000;
+}
+
+#transbox p {
+    margin: 5%;
+    color: #000000;
+}
+.carouseldiv{
+  position:relative;
+  bottom:2vw;
+}
+.carouselimg{
+  width:28.1vw;
+  height:20vw;
+}
+
+
+.headtxt{
+font-size:1.06vw;
+font-weight:450;
+}
+.txt{
+  font-size:0.95vw;
+color:gray;
+}
+.spacing2{
+  position:relative;
+  bottom:1vw;
+}
+.spacing3{
+position:relative;
+top:-1.8vw;
+}
+
+
+
+
+
 .background{
   background-image:url('./background.jpg');
 position:fixed;
@@ -44,7 +145,7 @@ right:0;
 }
 .about{
   background-color:white;
-  height:52vw;
+  height:82.6vw;
   border:none;
  box-shadow:-0.01px 3px 1px 0.1px lightgray;
 }
@@ -92,33 +193,39 @@ border-color:inherit !important;
 .progress{
   position:relative;
   top:3vw;
-  left:-25vw;
+  left:-6.5vw;
 }
 .updateprofile{
   position:relative;
-  bottom:2vw;
+bottom:1.5vw;
   left:1vw;
+  font-size:0.95vw;
   font-weight:450;
 }
 .mobile{
 position:relative;
 top:3vw;
-font-size:1vw;
-font-weight:440;
+font-size:0.9vw;
+font-weight:450;
 }
 .email{
 position:relative;
 top:1.7vw;
-font-size:1vw;
-font-weight:440;
+font-size:0.9vw;
+font-weight:450;
 }
 .no{
 color:grey;
 font-size:0.93vw;
+font-weight:400;
 }
 .id{
 color:grey;
-font-size:0.93vw;
+font-size:0.85vw;
+position:relative;
+bottom:1.35vw;
+left:4vw;
+font-weight:400;
 }
 .hrdivider{
   width:0.1%;
@@ -126,7 +233,7 @@ font-size:0.93vw;
 
   background-color:#E5ECF2;
   position:relative;
-  left:-32vw;
+  left:-35vw;
   top:1vw;
   bottom:1vw;
 
@@ -158,6 +265,7 @@ overflow:auto;
     padding-top:2vw;
   background-color:white;
   height:50vw;
+    box-shadow:-0.01px 3px 1px 0.1px lightgray;
 }
 .windeedJob{
   height:20vw;
@@ -281,6 +389,23 @@ cursor:pointer;
   background-color:#C5E9F1 !important;
   outline:inherit;
 }
+.skills{
+  border:1px solid lightgray;
+  padding:0.5vw;
+  position:relative;
+  top:1vw;
+  margin:0vw 1vw 0vw 0vw;
+  background-color:lightgray;
+  border-radius:10%;
+  color:black;
+}
+.skills:hover{
+  opacity:0.6;
+  background-color:lightgray;
+  color:black;
+
+}
+
 .paraheadings{
   color:#737A85;
   font-size:1.2vw;
@@ -312,6 +437,14 @@ cursor:pointer;
   color:red;
   float:right;
   margin-right:2vw;
+}
+.learnMore{
+  font-size:0.85vw;
+  color:red;
+float:right;
+margin-left:22vw;
+cursor:pointer;
+
 }
 .arrowdown2{
   position:relative;
