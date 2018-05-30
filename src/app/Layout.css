@@ -5,6 +5,20 @@ left:1vw;
 outline:none;
 
 }
+.contentHeading{
+
+
+
+  color:black;
+  font-weight:570;
+  font-size:1.1vw;
+  font-family:arial;
+}
+.contentText{
+  color:grey;
+  font-weight:460;
+  font-size:1vw;
+}
 .windeedheader{
   font-size:1.5vw;
 }

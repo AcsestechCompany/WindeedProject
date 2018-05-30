@@ -109,7 +109,54 @@ A positive attitude and specific ideas about the contributions they want to make
 <span className={styles.skills}>CSS</span>
 </p>
 <hr className={styles.breakline}/>
-<p className={styles.paraheadings}>Education</p>
+<p className={styles.paraheadings}>Education</p><br/>
+<p className={styles.paracontent}>
+<span className={styles.contentHeading}>B.E/B.Tech - </span>
+<span className={styles.contentHeading}> Computers</span><br/>
+<span>Muffakham Jah College of Engineering and Technology</span>
+<p> 2013 (Full Time)</p>
+</p>
+<p className={styles.paracontent}>
+<span className={styles.contentHeading}>Intermediate </span><br/>
+
+<span>State Board - English</span>
+<p>2009</p>
+</p>
+<p className={styles.paracontent}>
+<span className={styles.contentHeading}>SSC </span><br/>
+<span>State Board - English</span>
+<p>2007</p>
+</p>
+
+<hr className={styles.breakline}/>
+<div className={styles.paraheadings}>Work Experience</div><br/>
+<p className={styles.paracontent}><br/>
+<span className={styles.contentHeading}>Designation @ Company Name</span><br/>
+<span> Experience(From - To)</span><br/>
+<span>Notice Period</span><br/>
+<span>Job Description</span>
+</p>
+<hr className={styles.breakline}/>
+<p className={styles.paraheadings}>Job Preferences</p>
+<p className={styles.paracontent}><br/>
+
+<span className={styles.contentHeading}>Job Type - </span>
+<span >Permanent/Contract</span><br/>
+
+
+<span className={styles.contentHeading}>Expected Salary - </span>
+<span>min-max</span><br/>
+
+
+<span className={styles.contentHeading}>Preferred Location - </span>
+<span>Hyderabad / Bangalore</span><br/>
+
+<p>
+<span></span>
+<span></span>
+</p>
+</p>
+
 </CardText>
 
 
