@@ -16,9 +16,9 @@ export class JobseekerHeader extends React.Component{
 Enosh <Icon icon={smallDown} size={25} class={styles.arrowdown2}/>
 </button>
 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id={styles.dropdownmenu}>
-<Link to="/MyJobs" className={styles.hyperlink}><p class="dropdown-item" href="#">My Jobs</p></Link>
-<Link to="" className={styles.hyperlink}><p class="dropdown-item" >My Profile</p></Link>
-<Link to="" className={styles.hyperlink}><a class="dropdown-item" href="#">Log out</a></Link>
+<Link to="/MyJobs" className={styles.hyperlink}><p class="dropdown-item">My Jobs</p></Link>
+<Link to="/MyProfile" className={styles.hyperlink}><p class="dropdown-item" >My Profile</p></Link>
+<Link to="/HomePage" className={styles.hyperlink}><p class="dropdown-item">Log out</p></Link>
 </div>
 </span>
 

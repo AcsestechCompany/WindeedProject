@@ -1,0 +1,32 @@
+::placeholder{
+  color:gray !important;
+}
+.forminput1{
+position:relative;
+left:2vw;
+right:2vw;
+margin-right:2vw;
+}
+.formstyle1{
+  margin:3vw 0vw 5vw 7vw;
+}
+#btnsave{
+  border-color:#00A2E8 !important;
+  border-radius:15% !important;
+  position:relative;
+  top:2vw;
+
+  left:-12vw;
+}
+.profileimg{
+position:relative;
+top:4vw;
+
+}
+.updateprofile{
+  color:gray;
+  font-size:1vw;
+  position:relative;
+top:4vw;
+cursor:pointer;
+}

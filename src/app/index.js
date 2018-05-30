@@ -9,6 +9,8 @@ import {JobseekerHomepage} from "./JobseekerHomepage";
 import {EmployerHomepage} from "./EmployerHomepage";
 import {JobDescription} from "./JobDescription";
 import {MyJobs} from "./MyJobs";
+import {MyProfile} from "./MyProfile";
+
 
 
 
@@ -26,6 +28,7 @@ export class App extends React.Component{
           <Route path="/EmployerHomepage" component={EmployerHomepage}/>
           <Route path="/JobDescription" component={JobDescription}/>
           <Route path="/MyJobs" component={MyJobs}/>
+          <Route path="/MyProfile" component={MyProfile}/>
 
 
 
