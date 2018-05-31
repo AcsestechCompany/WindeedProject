@@ -1,6 +1,4 @@
-::placeholder{
-  color:gray !important;
-}
+
 .forminput1{
 position:relative;
 left:2vw;
@@ -10,6 +8,21 @@ margin-right:2vw;
 .formstyle1{
   margin:3vw 0vw 5vw 7vw;
 }
+.pagecontainer{
+  background-color:#F9F9F9;
+  min-height:539px;
+  overflow:auto;
+width:inherit;
+  padding:5vw 10vw 2vw 10vw;
+}
+.profileHeading{
+  font-weight:650;
+  font-size:1.3vw;
+}
+input.profileinput::-webkit-input-placeholder {
+
+    color: grey !important;
+  }
 #btnsave{
   border-color:#00A2E8 !important;
   border-radius:15% !important;
@@ -29,4 +42,101 @@ top:4vw;
   position:relative;
 top:4vw;
 cursor:pointer;
+}
+.jobcard1{
+  background-color:#E9E9E9;
+  height:15vw;
+  width:21vw;
+  border:none;
+}
+.jobcard2{
+  background-color:white;
+  height:15vw;
+  width:20vw;
+  border:none;
+  padding:1.5vw 0vw 2vw 2vw;
+}
+.card1heading{
+  color:#DD3D19;
+  font-size:1.5vw;
+  position:relative;
+  top:1vw;
+  left:1vw;
+  font-weight:650;
+}
+.location{
+color:#6E6E6E;
+font-size:0.95vw;
+position:relative;
+top:0.8vw;
+left:1vw;
+}
+.jobtype{
+  position:relative;
+  left:1vw;
+  top:0.8vw;
+  color:#6E6E6E;
+  font-size:0.95vw;
+
+
+}
+.experience{
+position:relative;
+left:1vw;
+top:1vw;
+color:#6E6E6E;
+font-size:0.98vw;
+
+}
+.postedon{
+position:relative;
+left:1vw;
+top:6vw;
+color:#6E6E6E;
+font-size:0.99vw;
+}
+.card2heading{
+
+}
+.company{
+font-size:0.95vw;
+font-weight:580;
+
+}
+.keyskills{
+  font-size:0.95vw;
+  font-weight:580;
+  position:relative;
+  top:1.5vw;
+}
+.JD{
+  font-size:0.95vw;
+  font-weight:580;
+  position:relative;
+  top:3vw;
+}
+.companyname{
+font-size:1vw;
+font-weight:normal;
+color:gray;
+}
+.skillsname{
+  font-size:1vw;
+  font-weight:normal;
+  color:gray;
+}
+.JDD{
+  font-size:1vw;
+  font-weight:normal;
+  color:gray;
+}
+.readmore{
+  color:#70A6DF;
+  position:relative;
+  top:4vw;
+left:45vw;
+  font-size:0.85vw;
+}
+.footerstyle{
+  background-color:#5995C5;
 }

@@ -440,16 +440,7 @@ cursor:pointer;
 .breakline{
   margin-top:5vw;
 }
-.pagecontainer{
-  background-color:#F9F9F9;
-  min-height:539px;
-  overflow:auto;
-  padding:5vw 10vw 2vw 10vw;
-}
-.profileHeading{
-  font-weight:650;
-  font-size:1.3vw;
-}
+
 
 .jobs{
   margin-left:2vw;

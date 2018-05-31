@@ -10,6 +10,7 @@ import {EmployerHomepage} from "./EmployerHomepage";
 import {JobDescription} from "./JobDescription";
 import {MyJobs} from "./MyJobs";
 import {MyProfile} from "./MyProfile";
+import {JobList} from "./JobList";
 
 
 
@@ -29,6 +30,7 @@ export class App extends React.Component{
           <Route path="/JobDescription" component={JobDescription}/>
           <Route path="/MyJobs" component={MyJobs}/>
           <Route path="/MyProfile" component={MyProfile}/>
+          <Route path="/JobList" component={JobList}/>
 
 
 

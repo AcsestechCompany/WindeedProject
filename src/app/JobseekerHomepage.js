@@ -113,23 +113,23 @@ A positive attitude and specific ideas about the contributions they want to make
 <p className={styles.paracontent}>
 <span className={styles.contentHeading}>B.E/B.Tech - </span>
 <span className={styles.contentHeading}> Computers</span><br/>
-<span>Muffakham Jah College of Engineering and Technology</span>
-<p> 2013 (Full Time)</p>
+<span>Muffakham Jah College of Engineering and Technology</span><br/>
+<span> 2013 (Full Time)</span>
 </p>
 <p className={styles.paracontent}>
 <span className={styles.contentHeading}>Intermediate </span><br/>
 
-<span>State Board - English</span>
-<p>2009</p>
+<span>State Board - English</span><br/>
+<span>2009</span>
 </p>
 <p className={styles.paracontent}>
 <span className={styles.contentHeading}>SSC </span><br/>
-<span>State Board - English</span>
-<p>2007</p>
+<span>State Board - English</span><br/>
+<span>2007</span>
 </p>
 
 <hr className={styles.breakline}/>
-<div className={styles.paraheadings}>Work Experience</div><br/>
+<p className={styles.paraheadings}>Work Experience</p><br/>
 <p className={styles.paracontent}><br/>
 <span className={styles.contentHeading}>Designation @ Company Name</span><br/>
 <span> Experience(From - To)</span><br/>
@@ -151,10 +151,7 @@ A positive attitude and specific ideas about the contributions they want to make
 <span className={styles.contentHeading}>Preferred Location - </span>
 <span>Hyderabad / Bangalore</span><br/>
 
-<p>
-<span></span>
-<span></span>
-</p>
+
 </p>
 
 </CardText>
