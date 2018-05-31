@@ -13,7 +13,7 @@ export class JobCard extends React.Component{
 <span className={styles1.location}>{this.props.location}</span>
 <span className={styles1.jobtype}>{this.props.jobtype}</span>
 <span className={styles1.experience}>{this.props.exp}</span>
-<span className={styles1.postedon}>{this.props.postedon}</span>
+<span className={styles1.postedon}>Posted on - {this.props.postedon}</span>
       </Card>
 
 

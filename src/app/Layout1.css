@@ -140,3 +140,69 @@ left:45vw;
 .footerstyle{
   background-color:#5995C5;
 }
+.jobdescriptioncard{
+  background-color:pink;
+  margin:4vw 6vw 0vw 6vw;
+  height:600px;
+}
+.carddetails{
+  background-color:#E9E9E9;
+
+  margin:0.8vw 63vw 0vw 0.8vw;
+  border:none;
+  border-radius:0%;
+}
+.hrcolor{
+  background-color:grey;
+  margin:1vw 1vw 0vw 1vw;
+  position:relative;
+  left:1vw;
+  width:98%;
+}
+.comp{
+  font-size:0.95vw;
+  font-weight:650;
+
+}
+.compname{
+color:gray;
+font-weight:normal;
+}
+.skil{
+  font-size:0.95vw;
+  font-weight:650;
+
+}
+.skilname{
+color:gray;
+font-weight:normal;
+}
+.jobdesc{
+  font-size:0.95vw;
+  font-weight:650;
+  position:relative;
+
+}
+.jobdescname{
+text-align:justify;
+
+color:gray;
+font-weight:normal;
+}
+.rightcard{
+  margin:-15vw 0vw 0vw 25vw;
+  padding:2vw 0vw 0vw 2vw;
+border:none;
+border-radius:0%;
+height:15vw;
+}
+.JDheading{
+  color:black;
+  font-weight:bold;
+  position:relative;
+  top:1vw;
+  left:2vw;
+}
+.rolesresponsibilities{
+  
+}
