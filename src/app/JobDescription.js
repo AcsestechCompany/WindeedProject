@@ -3,7 +3,7 @@ import {JobseekerHeader} from "./JobseekerHeader";
 import {JobDescriptionCard} from "./JobDescriptionCard";
 import {JobsCardCarousel} from "./JobsCardCarousel";
 import {Footer} from "./Footer";
-import styles1 from "./Layout1.css";
+import styles1 from "./Styling.css";
 function Blog(props) {
   const content = props.posts.map(
     (post) =>

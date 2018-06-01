@@ -1,6 +1,6 @@
 import React from "react";
 import {JobsCard} from "./JobsCard";
-import styles1 from "./layout1.css";
+import styles1 from "./Styling.css";
 import {Row,Col} from "reactstrap";
 import {Icon} from "react-icons-kit";
 

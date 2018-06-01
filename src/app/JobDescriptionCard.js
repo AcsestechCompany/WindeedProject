@@ -1,6 +1,6 @@
 import React from "react";
 import {Card,CardText,Row,Col} from "reactstrap";
-import styles1 from "./Layout1.css";
+import styles1 from "./Styling.css";
 import {Icon} from "react-icons-kit";
 
 import {thumbTack} from 'react-icons-kit/fa/thumbTack'

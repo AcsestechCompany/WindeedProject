@@ -3,8 +3,8 @@ import {JobseekerHeader} from "./JobseekerHeader";
 import { Form, FormGroup, Input,Label,Col,Row
 } from 'reactstrap';
 
-import {forminput1,formstyle1,profileinput} from "./Layout1.css";
-import styles1 from "./Layout1.css";
+import {forminput1,formstyle1,profileinput} from "./Styling.css";
+import styles1 from "./Styling.css";
 
 export class MyProfile extends React.Component{
   render(){

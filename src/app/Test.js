@@ -1,5 +1,5 @@
 import React from 'react';
-import styles1 from "./Layout1.css";
+import styles1 from "./Styling.css";
 
 
 

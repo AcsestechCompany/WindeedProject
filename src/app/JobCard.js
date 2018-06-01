@@ -1,5 +1,5 @@
 import React from "react";
-import styles1 from "./Layout1.css";
+import styles1 from "./Styling.css";
 import {Col,Row,Card,CardText} from "reactstrap";
 
 export class JobCard extends React.Component{

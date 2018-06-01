@@ -1,7 +1,7 @@
 import React from "react";
 import {JobseekerHeader} from "./JobseekerHeader";
 import styles from "./Layout.css";
-import styles1 from "./Layout1.css";
+import styles1 from "./Styling.css";
 import {Row,Col,Card,CardText} from "reactstrap";
 import {JobCard} from "./JobCard";
 import {Footer} from "./Footer";
@@ -24,7 +24,7 @@ export class JobList extends React.Component{
  skillsname={' Javascript,JQuery,CSS,HTML,Angularjs,Design Patterns,Web applications'}
  JDD={' Strong hands on experience in JavaScript,OOPS with good experience in frameworks like Angular or React Must Good experience in HTML, CSS ,application security and performance concepts. Should able to understand the internal of the frame work....' }
  />
- 
+
 
 
 

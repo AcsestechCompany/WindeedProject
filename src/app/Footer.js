@@ -1,7 +1,7 @@
 import React from "react";
-import styles1 from "./Layout1.css";
+import styles1 from "./Styling.css";
 import {Form,Input,Row} from "reactstrap";
-import {footerinput} from "./Layout1.css";
+import {footerinput} from "./Styling.css";
 
 export class Footer extends React.Component{
   render(){

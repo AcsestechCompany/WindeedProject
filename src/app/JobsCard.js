@@ -1,6 +1,6 @@
 import React from "react";
 import {Card,CardText,Col,Row} from "reactstrap";
-import styles1 from "./Layout1.css";
+import styles1 from "./Styling.css";
 
 
 
