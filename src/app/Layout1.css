@@ -23,6 +23,12 @@ input.profileinput::-webkit-input-placeholder {
 
     color: grey !important;
   }
+  input.footerinput::-webkit-input-placeholder{
+      color: grey !important;
+      font-size:0.9vw;
+      position:relative;
+      bottom:0.3vw;
+  }
 #btnsave{
   border-color:#00A2E8 !important;
   border-radius:15% !important;
@@ -139,15 +145,29 @@ left:45vw;
 }
 .footerstyle{
   background-color:#5995C5;
+  color:white;
+  height:6vw;
+  font-size:0.9vw;
+  padding:3vw 3vw 0vw 3vw ;
+}
+.contactus{
+  position:relative;
+  left:40vw;
+}
+.footerinput{
+  background-color:white;
+  width:18vw;
+  height:2vw;
+  position:relative;
+  left:23vw;
 }
 .jobdescriptioncard{
-  background-color:pink;
-  margin:4vw 6vw 0vw 6vw;
-  height:600px;
+  background-color:white;
+  margin:4vw 6vw 2vw 6vw;
+  height:800px;
 }
 .carddetails{
   background-color:#E9E9E9;
-
   margin:0.8vw 63vw 0vw 0.8vw;
   border:none;
   border-radius:0%;
@@ -162,7 +182,6 @@ left:45vw;
 .comp{
   font-size:0.95vw;
   font-weight:650;
-
 }
 .compname{
 color:gray;
@@ -171,7 +190,6 @@ font-weight:normal;
 .skil{
   font-size:0.95vw;
   font-weight:650;
-
 }
 .skilname{
 color:gray;
@@ -181,17 +199,15 @@ font-weight:normal;
   font-size:0.95vw;
   font-weight:650;
   position:relative;
-
 }
 .jobdescname{
 text-align:justify;
-
 color:gray;
 font-weight:normal;
 }
 .rightcard{
   margin:-15vw 0vw 0vw 25vw;
-  padding:2vw 0vw 0vw 2vw;
+  padding:2vw 0vw 0vw 1vw;
 border:none;
 border-radius:0%;
 height:15vw;
@@ -203,6 +219,67 @@ height:15vw;
   top:1vw;
   left:2vw;
 }
-.rolesresponsibilities{
-  
+.JDcontent{
+  margin:1vw 2vw 0vw 2vw;
+  font-size:1vw;
+  color:gray;
+}
+.title{
+
+}
+.jobscardrow{
+  margin:0vw 0vw 0vw 7vw;
+}
+.jobscard{
+  background-color:white;
+  height:200px;
+  width:270px;
+  margin:2vw 0.5vw 2vw 0.5vw;
+}
+.lefticon{
+  color:black;
+position:relative;
+right:2vw;
+
+}
+.righticon{
+  color:black;
+  position:relative;
+  left:1vw;
+}
+.pin{
+  transform:rotate(60deg);
+  color:gray;
+}
+.apply{
+  background-color:#5889BE;
+  font-size:1vw;
+  color:white;
+  cursor:pointer;
+text-align: center;
+padding-bottom: 0.3vw;
+  width:6vw;
+  margin:0vw 0.5vw 0vw 2vw;
+}
+.applyrowup{
+  position:relative;
+  bottom:14vw;
+  right:3vw;
+}
+.applyrowdown{
+  position:relative;
+  bottom:2vw;
+  left:75vw;
+}
+#subsc{
+position:relative;
+left:12vw;
+bottom:0.6vw;
+width:7%;
+height:2vw;
+border:1px solid white !important;
+padding-bottom:2vw;
+border-radius:10% !important;
+font-size:1vw;
+background-color:#5995C6 !important;
 }
