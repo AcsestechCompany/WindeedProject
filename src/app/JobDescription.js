@@ -13,8 +13,9 @@ function Blog(props) {
    - {post.content}
     </div>
   );
+
   return (
-    <p>  {content}</p>
+    <p>  {content} </p>
   );
 }
 
@@ -43,7 +44,6 @@ export class JobDescription  extends React.Component{
       <div>
       <JobseekerHeader/>
       <JobDescriptionCard
-
 card1heading={'Front End Web Developer'}
 location={'Bangalore,Karnataka,India'}
 jobtype={'Permanent'}

@@ -6,6 +6,7 @@ import Toggle from "react-toggle";
 import Chips, { Chip } from "react-chips";
 import CircularProgressbar from "react-circular-progressbar";
 import {WindeedCarousel} from "./WindeedCarousel";
+import {Footer} from "./Footer";
 
 export class JobseekerHomepage extends React.Component{
   constructor(props) {
@@ -183,6 +184,7 @@ A positive attitude and specific ideas about the contributions they want to make
 
 
       </div>
+      <Footer/>
       </div>
     );
   }

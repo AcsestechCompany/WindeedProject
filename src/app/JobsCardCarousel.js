@@ -7,6 +7,7 @@ import {Icon} from "react-icons-kit";
 import {thinLeft,thinRight} from 'react-icons-kit/entypo/';
 
 export class JobsCardCarousel extends React.Component{
+
   render(){
     return(
 
@@ -23,6 +24,7 @@ export class JobsCardCarousel extends React.Component{
               jobtype={'Permanent'}
               exp={'3-5 Years'}
               postedon={'April 27,2018'}
+
               />
 
 
@@ -107,6 +109,8 @@ export class JobsCardCarousel extends React.Component{
               <span class="sr-only">Next</span>
             </a>
             </div>
+
+
     );
   }
 }

@@ -12,8 +12,8 @@ export class Register extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      isJobseeker:true,
-      isEmployer:false,
+      isJobseeker:false,
+      isEmployer:true,
       Register:true,
       inOTP:false
     }
@@ -22,7 +22,6 @@ export class Register extends React.Component{
     this.setState({
       inOTP:true,
       Register:false
-
     })
   }
 handleJobseeker(){
@@ -67,6 +66,7 @@ handleLogin(){
 
 </span>
       </p>
+
       {this.state.isJobseeker?   <RegisterJobseeker/>: '' }
       {this.state.isEmployer?   <RegisterEmployer/> : '' }
         <Link to="/OTP"><button type="submit" class="btn btn-outline-default" >Submit</button></Link>

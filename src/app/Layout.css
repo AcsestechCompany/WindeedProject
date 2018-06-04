@@ -143,6 +143,7 @@ right:0;
   height:9vw;
   background-color:#5887BE;
   padding:2.5vw 2vw 0vw 2vw;
+  overflow-x: hidden;
 }
 .headerJtxt{
   color:#98E4F0;

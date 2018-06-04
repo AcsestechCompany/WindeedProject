@@ -41,9 +41,10 @@ export class JobDescriptionCard extends React.Component{
 <Icon icon={thumbTack} size={20} className={styles1.pin}/>
 </Row>
 </Row>
-
+<div className={styles1.details}>
 
 <hr className={styles1.hrcolor}/>
+
 <p className={styles1.JDheading}>ABOUT COMPANY</p>
 <p className={styles1.JDcontent}>
 {this.props.aboutcompany}
@@ -61,7 +62,9 @@ export class JobDescriptionCard extends React.Component{
 <Row className={styles1.applyrowdown}>
 <p className={styles1.apply}>APPLY</p>
 <Icon icon={thumbTack} size={20} className={styles1.pin}/>
+
 </Row>
+</div>
 </Card>
 
 

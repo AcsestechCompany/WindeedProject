@@ -8,20 +8,53 @@ margin-right:2vw;
 .formstyle1{
   margin:3vw 0vw 5vw 7vw;
 }
+
 .pagecontainer{
   background-color:#F9F9F9;
   min-height:539px;
-  overflow:auto;
-width:inherit;
+  margin-right:auto;
+overflow-y:hidden;
   padding:5vw 10vw 2vw 10vw;
+  overflow-x:hidden;
+
+}
+.formstylejoblist{
+  margin-left:15vw;
+}
+#search{
+  width:80%;
+
+  margin-left:1vw;
+  border-color:#7092BE !important;
+  border-radius: 10% !important;
+  display:inline-block;
+min-width: 50px;
+width: 80px;
+height:2vw;
+padding-top:-2vw;
+}
+.applyjoblist{
+  position:relative;
+  bottom:15vw;
+  left:68vw;
 }
 .profileHeading{
   font-weight:650;
   font-size:1.3vw;
 }
+.caretup{
+  position:relative;
+  top:0.2vw;
+}
+#caretdropdown{
+
+
+}
 input.profileinput::-webkit-input-placeholder {
 
     color: grey !important;
+    font-size:0.95vw;
+
   }
   input.footerinput::-webkit-input-placeholder{
       color: grey !important;
@@ -58,9 +91,12 @@ cursor:pointer;
 .jobcard2{
   background-color:white;
   height:15vw;
-  width:20vw;
+width:58vw;
+margin-bottom:2vw;
   border:none;
-  padding:1.5vw 0vw 2vw 2vw;
+overflow-x:hidden;
+padding:1.5vw 0vw 0vw 2vw;
+
 }
 .card1heading{
   color:#DD3D19;
@@ -140,9 +176,14 @@ color:gray;
   color:#70A6DF;
   position:relative;
   top:4vw;
-left:45vw;
+  left:50vw;
   font-size:0.85vw;
+text-decoration:none !important;
 }
+.readmore:hover{
+    color:#70A6DF;
+}
+
 .footerstyle{
   background-color:#5995C5;
   color:white;
@@ -165,6 +206,7 @@ left:45vw;
   background-color:white;
   margin:4vw 6vw 2vw 6vw;
   height:800px;
+  overflow-x: hidden;
 }
 .carddetails{
   background-color:#E9E9E9;
@@ -172,11 +214,40 @@ left:45vw;
   border:none;
   border-radius:0%;
 }
+.details{
+
+
+}
+#joblistdropdowns{
+  position:relative;
+  top:5vw;
+right:30vw;
+}
+#joblistdropdown{
+margin-left:-5vw;
+margin-bottom:1vw;
+}
+.joblistarrowup{
+position:relative;
+top:0.25vw;
+left:0.2vw;
+}
+#dropdownjoblist{
+  background-color:inherit;
+  border:none;
+  color:#000000 !important;
+  width:12vw;
+  cursor:pointer;
+  font-size:0.9vw;
+  position:relative;
+  outline:inherit;
+}
+
+#joblistmenuitem:hover{
+background-color:#CBECF3;
+}
 .hrcolor{
   background-color:grey;
-  margin:1vw 1vw 0vw 1vw;
-  position:relative;
-  left:1vw;
   width:98%;
 }
 .comp{
@@ -211,6 +282,7 @@ font-weight:normal;
 border:none;
 border-radius:0%;
 height:15vw;
+
 }
 .JDheading{
   color:black;
@@ -269,7 +341,7 @@ padding-bottom: 0.3vw;
 .applyrowdown{
   position:relative;
   bottom:2vw;
-  left:75vw;
+  left:77vw;
 }
 #subsc{
 position:relative;
